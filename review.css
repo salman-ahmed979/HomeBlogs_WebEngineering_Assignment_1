@@ -1,0 +1,29 @@
+.reviewContainer {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.reviewContainer input {
+    margin-top: 2%;
+    width: 35%;
+    /* height: 5vh; */
+    padding: 0.8em;
+}
+.reviewContainer button {
+    text-align: center;
+    width: 3%;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+    background-color: #6dd0fa;
+    border: none;
+    padding: 0.3em;
+}
+header {
+    background-image: none;
+    height: 10vh;
+    background-color: #504e4e;
+}

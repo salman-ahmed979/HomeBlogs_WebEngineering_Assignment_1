@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "fira-sans","San Francisco","Segoe UI",sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-image: url('./images/background_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 60vh;
+}
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    /* background-color: #333333; */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+ul li:hover {
+    background-color: #555;
+}
+
+#navBtn {
+    background-color: #FAD04F;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.75em;
+}
+.navText {
+    display: flex;
+    /* border: 2px solid brown; */
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    color: #ffff;
+    /* background-color: #333333; */
+    line-height: 2.7rem;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.navText h3 {
+    font-size:2.5em;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    margin-bottom: 6px;
+}
+.navText p {
+    font-size: 13pt;
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+#serviceSearch {
+    padding: 16px;
+    width: 50%;
+    
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#postalCode {
+    margin-left: -5px;
+    padding: 16px;
+    width: 28%;
+  
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 1px;
+}
+.searchBox button {
+    padding: 10px;
+    height: 3.9em;
+    margin-left:-4px;
+    width: 22%;
+    border: none;
+    background-color: #2FBB86;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    width: 100%;
+    letter-spacing: 1.7px;
+}
+.sec1 h3 {
+    letter-spacing: 0.2px;
+    font-size: 15pt;
+    font-weight: 600;
+}
+.logoSection {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.logoSection span {
+    border: 3px solid #15546e;
+    border-radius: 8px;
+    height: 11vh;
+    color: #177aa5;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 10pt;
+    font-weight: 700;
+    cursor: pointer;
+}
+.logoSection span svg {
+    display: block;
+    margin: auto;
+}
+.logoSection span:hover {
+    background-color: #08638a;
+    color: #ffff;
+    border:3px solid #333333;
+}
+.logoSection span img {
+    display: block;
+    margin: auto;
+}
+.logoSectionBottom {
+    text-align: center;
+}
+.logoSectionBottom h1 {
+    margin-top: 30px;
+    font-size: 26pt;
+}
+
+hr {
+    height: 1px;
+    width: 18%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #29ace4;
+    margin-bottom: 50px;
+    
+}
+
+.Boxes {
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.Boxes > div {
+    border: 1px solid gray;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 3px;
+    height: 25vh;
+}
+.Boxes div p {
+    font-size: 13pt;
+    /* margin: 15px; */
+    font-weight: 600;
+    font-style: italic;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.stars {
+    margin-bottom: 0px;
+    height:100%;
+    /* border: 2px solid blue; */
+    color: #ffff;
+    background-color: #17b0f1;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;    
+}
+
+.stars span{
+    margin:4px;
+    font-style: normal;
+}
+
+footer {
+    height: 80vh;
+    border: 2px solid black;
+    background-color: #333333;
+}
+.footerService {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30pt;
+    color: #fff;
+    background-image: url('./images/Home\ Pro\ BG\ Image.png');
+}
+.footerService h2 {
+    margin-top: 20px;
+    font-size: 22pt;
+}
+.footerService h5 {
+    font-size: large;
+}
+.footerService button {
+    width: 14%;
+    margin-bottom: 30px;
+}
+.advice {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.advice div {
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+#signUp{
+    background-color: #2FBB86;
+    text-transform: uppercase;
+    font-size: 10pt;
+    border: none;
+    width: 20%;
+    margin-left: 10px;
+    padding: 11px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #ffff;
+}
+#needHelp {
+    color: #fff;
+    float: right;
+    font-size: 15pt;
+    letter-spacing: 1.4px;
+}
+#needHelp a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: #17b0f1;
+}
+footer hr {
+    width: 85%;
+    height: 0px;
+    background-color: gray;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+.footerSection {
+    display: flex;
+    color: #ffff;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.columns {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.col1 {
+    width: 60%;
+}
+.col1 img {
+    width: 100%;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+}
+#imageSection {
+    width: 100%;
+}

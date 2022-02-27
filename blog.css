@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "fira-sans","San Francisco","Segoe UI",sans-serif;
+}
+header {
+    background-image: none;
+    height: 10vh;
+    background-color: #504e4e;
+}
+.blogContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.wrapper {
+    width: 90%;
+    height: 70vh;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.wrapper a {
+    text-decoration: none;
+}
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.wrapper span {
+    display: inline;
+    z-index: 1;
+    text-transform: uppercase;
+    position: relative;
+    top: -90px;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 120%;
+}
+
+.wrapper span:hover {
+    /* color: #5555; */
+    background-color: lightslategray;
+}
+.allBlogs {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.blogs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.blogs h4 {
+    font-size: 20pt;
+    letter-spacing: 3px;
+    color: #0c8ac0;
+    font-weight: bold;
+}
+hr {
+    height: 3px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    background-color: #1a6d91;
+}
+.blogs div {
+    display: flex;
+    width: 80%;
+}
+.blogs div p {
+    width: 80%;
+    border: 3px solid #1a6d91;
+    border-radius: 4px;
+    margin-right:6% ;
+    margin-top: 1%;
+    flex-direction: row;
+    font-size: 13pt;
+    cursor: pointer;
+    padding: 0.4em;
+}
+.blogs div p:hover {
+    background-color: #08638a;
+    color: #fff;
+}
